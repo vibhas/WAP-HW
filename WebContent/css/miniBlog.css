@@ -1,0 +1,79 @@
+#header
+{
+	background-color: blue;
+	height: 100px;
+	text-align: center;
+	font-size: 5em;
+	line-height: 90px;	
+}
+
+#main
+{
+	margin-left: auto;
+	margin-right: auto;	
+	width: 50%;
+}
+
+.error
+{
+	color: red;
+}
+
+#post
+{
+	width: 100%;
+}
+
+#postButton
+{
+	margin-left: 45%;	
+}
+
+.post_1
+{
+	width: 100%;;	
+}
+
+.post_2
+{
+	border-bottom: 1px solid;
+	width: 100%;
+}
+
+.name
+{
+	text-align:left;
+	font-weight: bold;	
+	width: 60%;
+}
+
+.time
+{
+	text-align:right;
+	width: 40%;
+	text-align: right;
+}
+
+.content
+{
+	text-align:left;
+	width: 90%;	
+}
+
+.deleteForm
+{
+	width: 10%;
+}
+
+.deleteButton
+{
+	background-image: url(../images/deleteimage.jpg);
+	background-repeat:no-repeat;
+	width: 36px;
+	height: 34px;
+}
+
+#logout
+{
+	float: right;
+}

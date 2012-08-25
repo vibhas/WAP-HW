@@ -7,12 +7,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
-import javax.swing.text.StyledEditorKit.BoldAction;
-
 public class DbUtilities {
 	private static String protocol = "jdbc:derby:";
 	//Please edit dbName according to the location of the DB
-	private static String dbName = "C:/Users/Vibhas/Documents/workspace/WAP-HW/miniblog";
+	private static String dbName = "C:/Users/Vibhas/Documents/GitHub/WAP-HW/miniblog";
 	private static String dbusername = "someuser";
 	private static String dbpassword = "somepassword";
 	private static Properties userInfo;
@@ -97,6 +95,7 @@ public class DbUtilities {
 			}
 	}
 	
+/*
 	private void getConnectionInstance() {
 		if (connection == null) 
 		{
@@ -115,6 +114,6 @@ public class DbUtilities {
 				e.printStackTrace();
 			}
 		}
-	}
+	}*/
 	
 }

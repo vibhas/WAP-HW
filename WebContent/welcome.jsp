@@ -16,9 +16,8 @@
 	<a>${name}</a>
 	<a id="logout" href="logout">Logout</a>
 	<form action="home" method="post">
-		<label><textarea name="post" id="post" rows="3"
-				 onfocus="this.value=''" onblur="this.value='Do you want to say something?'">Do you want to say something?</textarea>
-		</label>
+		<textarea name="post" id="post" rows="3"
+				 onfocus="this.value=''" >Do you want to say something?</textarea>
 		<!--label>Your post: <input name="post" type="text" id="post" value="${param.post}"></label-->
 		<span class="error">${errors.post}</span><br> <input
 			id="postButton" name="submitButton" type="submit" value="Submit">

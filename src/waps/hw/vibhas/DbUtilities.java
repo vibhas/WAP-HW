@@ -9,12 +9,13 @@ import java.util.Properties;
 
 public class DbUtilities {
 	private static String protocol = "jdbc:derby:";
-	//Please edit dbName according to the location of the DB
-	private static String dbName = "C:/Users/Vibhas/Documents/GitHub/WAP-HW/miniblog";
+	//Please edit dbPath according to the location of the DB
+	private static String dbPath = "C:/Users/Vibhas/Documents/GitHub/WAP-HW/";
+	private static String dbName = "miniblog;create=true";
 	private static String dbusername = "someuser";
 	private static String dbpassword = "somepassword";
 	private static Properties userInfo;
-	private static String dbUrl = protocol + dbName;
+	private static String dbUrl = protocol + dbPath + dbName;
 	private Connection connection;
 	private static String driver = "org.apache.derby.jdbc.EmbeddedDriver";
 
